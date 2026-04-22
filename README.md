@@ -1,96 +1,48 @@
-# Seeing Numbers in All Bases
+# Seeing Numbers Across Bases
 
-## The idea
+## What this repository is about
 
-Humans usually see numbers in base 10.
+We usually write numbers in base 10.
 
-But base 10 is not special.  
-It is just a habit.
+This repository begins from a simple fact:
 
----
+base 10 is not the number itself.  
+It is only one way to represent it.
 
-## A number is not how we write it
+The same number can be written in many different bases, and its written form changes with the base.
 
-Take a number like:
+For example:
 
 ```text
-10
-
-In base 10, it means ten.
-
-But change the base:
-
 base 2  -> 10 = 2
-
 base 3  -> 10 = 3
-
 base 10 -> 10 = 10
-
 base 16 -> 10 = 16
-
 
 Same symbol. Different values.
 
-So:
+So the symbol is not the number.
 
-the symbol is not the number.
+Core idea
 
+Instead of looking at numbers through one base only, this repository looks at them across many bases.
 
----
-
-What we usually do
-
-Humans pick one base (usually base 10)
-and stay there.
-
-We solve problems inside that single view.
-
-
----
-
-What we could do instead
-
-Look at the same number in all bases.
-
-Not one.
-
-All.
-
-n -> representations in base 2, 3, 4, 5, ...
-
-
----
+The goal is to study what changes and what remains stable when representation changes.
 
 Why this matters
 
-Each base shows something different.
+A single base gives only one view.
 
-Some patterns appear.
-Some disappear.
+Different bases can make the same number look longer, shorter, simpler, or more complex.
 
-So using only one base means:
+So looking across bases helps separate:
 
-seeing only part of the structure.
+the number itself
 
-
----
-
-The simple idea
-
-one base  -> limited view
-all bases -> wider view
+the way the number is written
 
 
----
+In one line
 
-Goal
-
-Not to change mathematics.
-
-Just to change how we look at numbers.
-
-See them through many bases, not just one.
-
-That’s all.
-
+This repository studies numbers across bases to distinguish representational change from structural invariance.
 
