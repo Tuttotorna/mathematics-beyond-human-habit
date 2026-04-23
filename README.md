@@ -1,5 +1,7 @@
 # OMNIABASE
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19706718.svg)](https://doi.org/10.5281/zenodo.19706718)
+
 OMNIABASE studies numbers across bases.
 
 It starts from a simple fact:
