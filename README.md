@@ -26,10 +26,10 @@ It is only one way to write numbers.
 
 The same symbol can mean different values in different bases:
 
-    base 2  -> 10 = 2
-    base 3  -> 10 = 3
-    base 10 -> 10 = 10
-    base 16 -> 10 = 16
+- in base 2, `10` means 2
+- in base 3, `10` means 3
+- in base 10, `10` means 10
+- in base 16, `10` means 16
 
 Same symbol. Different values.
 
