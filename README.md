@@ -1,32 +1,32 @@
-# OMNIABASE
+OMNIABASE
 
 OMNIABASE studies numbers across bases.
 
 It starts from a simple fact:
 
-**the same number can be written in many different bases, and its written form changes with the base.**
+the same number can be written in many different bases, and its written form changes with the base.
 
-The number does not change.  
+The number does not change.
 Its representation does.
 
 This repository explores that difference.
 
 The main question is simple:
 
-**what belongs to the number, and what belongs only to the way we write it?**
+what belongs to the number, and what belongs only to the way we write it?
+
 
 ---
 
-## What this repository is about
+What this repository is about
 
 Humans usually write numbers in base 10.
 
-But base 10 is not the number itself.  
+But base 10 is not the number itself.
 It is only one way to write numbers.
 
 The same symbol can mean different values in different bases:
 
-```text
 base 2  -> 10 = 2
 base 3  -> 10 = 3
 base 10 -> 10 = 10
@@ -143,35 +143,6 @@ If you are new to the repository, read in this order:
 
 
 
-This path goes from:
-
-visual observation
-
-conceptual clarification
-
-broader theoretical direction
-
-
-
----
-
-Visual note
-
-For a visual introduction to representational cost across bases, see:
-
-REPRESENTATIONAL_COST_HEATMAP.md
-
-
-For a precise explanation of what the heatmap shows, what mathematics already knew, and what may be genuinely new if base change is used as a structural probe, see:
-
-WHAT_THIS_HEATMAP_DOES_AND_DOES_NOT_SHOW.md
-
-
-For the broader theoretical direction behind the multibase approach, see:
-
-REPRESENTATIONAL_INVARIANCE_THEORY.md
-
-
 
 ---
 
@@ -182,8 +153,6 @@ The same number can be written in many ways.
 What changes with the base is not the number itself, but the form and cost of its representation.
 
 OMNIABASE takes that simple fact seriously and asks whether persistence across bases can help identify stronger structural properties.
-
-That is the whole point of the repository.
 
 
 ---
@@ -221,4 +190,7 @@ OMNIABASE is a simple and concrete entry point.
 
 OMNIA is the broader structural generalization of the same idea.
 
+
+
+---
 
