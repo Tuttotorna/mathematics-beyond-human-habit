@@ -4,12 +4,16 @@ OMNIABASE studies numbers across bases.
 
 It starts from a simple fact:
 
-the same number can be written in many different bases, and its written form changes with the base.
+**the same number can be written in many different bases, and its written form changes with the base.**
 
 The number does not change.  
 Its representation does.
 
-This repository explores that difference in order to study what is representational and what may be structurally invariant.
+This repository explores that difference.
+
+The main question is simple:
+
+**what belongs to the number, and what belongs only to the way we write it?**
 
 ---
 
@@ -18,7 +22,7 @@ This repository explores that difference in order to study what is representatio
 Humans usually write numbers in base 10.
 
 But base 10 is not the number itself.  
-It is only one representational system among many.
+It is only one way to write numbers.
 
 The same symbol can mean different values in different bases:
 
@@ -38,9 +42,11 @@ Instead of looking at numbers through one base only, it looks at them across mul
 
 what changes when the base changes?
 
-what remains stable?
+what stays the same?
 
-which patterns belong to the number, and which belong only to the chosen representation?
+which patterns belong to the number?
+
+which patterns belong only to the chosen representation?
 
 
 
@@ -50,9 +56,18 @@ Core idea
 
 A single base gives only one view.
 
-Different bases can make the same number look longer, shorter, simpler, or more complex.
+Different bases can make the same number look:
 
-So if we observe numbers in one base only, we risk confusing the representation with the object itself.
+longer
+
+shorter
+
+simpler
+
+more complex
+
+
+So if we observe numbers in one base only, we may confuse the representation with the object itself.
 
 OMNIABASE studies numbers across bases to separate:
 
@@ -62,12 +77,12 @@ the encoding of the number
 
 properties that depend on representation
 
-properties that may remain invariant across representations
+properties that may remain stable across representations
 
 
 In one line:
 
-OMNIABASE studies numbers across bases to distinguish representational change from structural invariance.
+OMNIABASE studies numbers across bases to distinguish representational change from structural persistence.
 
 
 ---
@@ -80,17 +95,17 @@ That is not the discovery.
 
 The important step is different:
 
-use representation-change not only as notation, but as a probe.
+use base change not only as notation, but as a probe.
 
-This means treating variation across bases as something to observe, compare, and eventually measure.
+This means treating variation across bases as something to observe, compare, and possibly measure.
 
 The central question becomes:
 
 when representation changes, what survives and what does not?
 
-If a property appears only in one encoding, it may be an artifact of that encoding.
+If a property appears only in one encoding, it may belong to that encoding.
 
-If a property persists across many encodings, it has stronger claim to structural status.
+If a property persists across many encodings, it has a stronger claim to structural status.
 
 That is the direction explored here.
 
@@ -132,9 +147,9 @@ This path goes from:
 
 visual observation
 
-to conceptual clarification
+conceptual clarification
 
-to the broader disciplinary direction
+broader theoretical direction
 
 
 
@@ -142,11 +157,20 @@ to the broader disciplinary direction
 
 Visual note
 
-For a visual introduction to representational cost across bases, see REPRESENTATIONAL_COST_HEATMAP.md.
+For a visual introduction to representational cost across bases, see:
 
-For a precise explanation of what the heatmap shows, what mathematics already knew, and what may be genuinely new if representation-change is used as a structural measurement tool, see WHAT_THIS_HEATMAP_DOES_AND_DOES_NOT_SHOW.md.
+REPRESENTATIONAL_COST_HEATMAP.md
 
-For the broader disciplinary direction behind the multibase approach, see REPRESENTATIONAL_INVARIANCE_THEORY.md.
+
+For a precise explanation of what the heatmap shows, what mathematics already knew, and what may be genuinely new if base change is used as a structural probe, see:
+
+WHAT_THIS_HEATMAP_DOES_AND_DOES_NOT_SHOW.md
+
+
+For the broader theoretical direction behind the multibase approach, see:
+
+REPRESENTATIONAL_INVARIANCE_THEORY.md
+
 
 
 ---
@@ -157,7 +181,42 @@ The same number can be written in many ways.
 
 What changes with the base is not the number itself, but the form and cost of its representation.
 
-OMNIABASE takes that simple fact seriously and asks whether cross-base persistence can be used to identify stronger structural properties.
+OMNIABASE takes that simple fact seriously and asks whether persistence across bases can help identify stronger structural properties.
 
 That is the whole point of the repository.
+
+
+---
+
+Where this leads
+
+What you saw here is simple:
+
+the same number can look very different depending on how you write it.
+
+So a natural question appears:
+
+what belongs to the number, and what belongs only to the way we write it?
+
+This idea can be extended.
+
+Not only to numbers,
+but to any output, representation, or system.
+
+If something changes a lot when you slightly change its form,
+it may depend on the form.
+
+If something stays stable across transformations,
+it may reflect deeper structure.
+
+This is the direction that leads to OMNIA.
+
+OMNIA asks a more general question:
+
+does something still hold when you change how it is expressed?
+
+In that sense:
+
+OMNIABASE is a simple and concrete entry point.
+OMNIA is the broader structural generalization of the same idea.
 
