@@ -218,5 +218,7 @@ does something still hold when you change how it is expressed?
 In that sense:
 
 OMNIABASE is a simple and concrete entry point.
+
 OMNIA is the broader structural generalization of the same idea.
+
 
