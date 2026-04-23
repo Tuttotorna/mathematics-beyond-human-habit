@@ -183,6 +183,10 @@ OMNIA asks a more general question:
 
 **does something still hold when you change how it is expressed?**
 
+To explore the broader structural direction, see OMNIA:
+
+`https://github.com/Tuttotorna/OMNIA`
+
 In that sense:
 
 - **OMNIABASE is a simple and concrete entry point.**
